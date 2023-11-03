@@ -1,5 +1,5 @@
 import pandas as pd
-from .metricas import calcular_metricas
+from . import metricas
 
 def filtrado(datos, clase=None,min_Var=float('-inf'),max_Var=float('inf'),min_AUC=0,max_AUC=1,min_Entropia=float('-inf'),max_Entropia=float('inf')):
     ''' 
@@ -13,7 +13,7 @@ def filtrado(datos, clase=None,min_Var=float('-inf'),max_Var=float('inf'),min_AU
     Returns:
         (DataFrame): Dataset filtrado.
     '''
-    metricas=calcular_metricas(datos,clase)
+    metricas=metricas.calcular_metricas(datos,clase)
     # Completar metricas
     metricas.loc['Varianza',~pd.notna(metricas.loc['Varianza'])]=min_Var
     metricas.loc['AUC',~pd.notna(metricas.loc['AUC'])]=min_AUC
