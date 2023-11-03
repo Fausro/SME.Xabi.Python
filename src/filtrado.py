@@ -1,5 +1,5 @@
 import pandas as pd
-from metricas import calcular_metricas
+from .metricas import calcular_metricas
 
 def filtrado(datos, clase=None,min_Var=float('-inf'),max_Var=float('inf'),min_AUC=0,max_AUC=1,min_Entropia=float('-inf'),max_Entropia=float('inf')):
     ''' 
