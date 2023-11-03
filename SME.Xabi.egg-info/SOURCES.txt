@@ -1,0 +1,13 @@
+setup.py
+SME.Xabi.egg-info/PKG-INFO
+SME.Xabi.egg-info/SOURCES.txt
+SME.Xabi.egg-info/dependency_links.txt
+SME.Xabi.egg-info/requires.txt
+SME.Xabi.egg-info/top_level.txt
+src/__init__.py
+src/cor_im_pares.py
+src/discretizacion.py
+src/escala.py
+src/filtrado.py
+src/metricas.py
+src/plots.py
