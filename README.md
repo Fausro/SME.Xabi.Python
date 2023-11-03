@@ -10,6 +10,13 @@ Puedes instalar el paquete utilizando pip:
 pip install git+https://github.com/Fausro/SME.Xabi.Python.git
 ```
 
+#### Dependencias
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+
 ## Uso
 
 A continuación, se muestra un ejemplo de cómo utilizar el paquete:
