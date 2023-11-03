@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
    name='SME.Xabi',
-   version='0.0.1',
+   version='0.0.2',
    author='Xabier Larrayoz',
    author_email='xabier.larrayoz@ehu.eus',
    packages=['SME.Xabi'],
